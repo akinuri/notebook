@@ -1,0 +1,18 @@
+layer vs. tier
+    layer is a logical structuring mechanism for the elements that make up the software solution
+    a tier is a physical structuring mechanism for the system infrastructure
+    
+    a three-layer solution could easily be deployed on a single tier
+
+
+
+three-tier architecture
+    data storage    database, MySQL
+    domain logic    business, PHP, CodeIgniter
+    presentation    content, page, browser, os
+
+layers
+    data access     persistence, logging, networking
+    business        model, logic, rules
+    application     controller, service
+    presentation    ui, view

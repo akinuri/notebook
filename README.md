@@ -1,2 +1,3 @@
 # notebook
- Includes graphs, abstractions, notes about various topics.
+Includes graphs, abstractions, notes about various topics.
+

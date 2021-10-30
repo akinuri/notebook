@@ -1,0 +1,67 @@
+apache/
+    
+    bin/
+        iconv/
+            *.so
+        curl.exe
+        httpd.exe
+        lib*.dll
+        openssl.exe
+        *.exe
+        *.dll
+        *
+    
+    conf/
+        extra/
+            httpd-*.conf
+            httpd-xampp.conf
+        original/
+            (almost a copy of conf/)
+        ssl.crt/
+        ssl.csr/
+        ssl.key/
+        charset.conv
+        httpd.conf
+        mime.types
+        ...
+    
+    error/
+        HTTP_*.html.var
+    
+    icons/
+        *.gif
+        *.png
+    
+    include/
+        *.h
+    
+    lib/
+        *.lib
+    
+    logs/
+        access.log
+        error.log
+        http.pid
+        install.log
+        ssl_request.log
+    
+    modules/
+        mod_*.so
+    
+    scripts/
+        ctl.bat
+    
+    ------------------------------
+    
+    ABOUT_APACHE.txt
+    CHANGES.txt
+    INSTALL.txt
+    LICENSE.txt
+    NOTICE.txt
+    OPENSSL-NEWS.txt
+    OPENSSL-README.txt
+    README.txt
+    
+    apache_installservice.bat
+    apache_uninstallservice.bat
+    makecert.bat

@@ -1,0 +1,9 @@
+localhost/
+          cgi-bin/
+          examples/
+          icons/
+          licences/
+          phpmyadmin/
+          webalizer/
+          server-status/
+          server-info/

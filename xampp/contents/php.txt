@@ -1,0 +1,94 @@
+php/
+    
+    cfg/
+    
+    CompatInfo/
+        Renderer/
+            *.php
+        *.php
+    
+    data/
+        PEAR/
+            package.dtd
+            template.spec
+        phpdocref/
+            */
+                versions.xml
+    
+    dev/
+        php8ts.lib
+    
+    docs/
+        */
+    
+    ext/
+        php_*.dll
+    
+    etras/
+        fonts/
+            */
+        mibs/
+            *.txt
+            *.inc
+            *
+        openssl/
+            openssl.cnf
+            openssl.exe
+            README-SSL.txt
+        ssl/
+            openssl.cnf
+        browscap.ini
+    
+    lib/
+        enchant/
+    
+    man/
+    
+    pear/
+        */
+        *
+    
+    scripts/
+        *.php
+        *.bat
+    
+    tests/
+        */
+        *
+    
+    tmp/
+    
+    windowsXamppPhp/
+        (seems to be a copy of php/ with no reference in xampp/)
+        (maybe safe to delete?)
+    
+    www/
+    
+    ------------------------------
+    
+    php.exe
+    php-cgi.exe
+    phpdbg.exe
+    php-win.exe
+    
+    php8apache2_4.dll
+    php8phpdbg.dll
+    php8ts.dll
+    lib*.dll
+    *.dll
+    
+    php.ini
+    php.ini-development
+    php.ini-production
+    
+    README.md
+    license.txt
+    news.txt
+    readme-redist-bins.txt
+    snapshot.txt
+    
+    pci*
+    
+    *.php
+    *.bat
+    *
