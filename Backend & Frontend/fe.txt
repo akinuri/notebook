@@ -1,0 +1,20 @@
+frontend
+    html, css, js, sass, jquery
+    frameworks
+        angular, react, vue
+    ajax
+    performance
+        render, fps, memory
+    cross-browser compatibility
+    optimization
+        merge, reduce, automation
+    SEO
+    accessibility
+        visual
+            screen reader
+        motor/mobility
+        seizures
+        device
+            responsive design
+    UI/UX
+        graphics, design

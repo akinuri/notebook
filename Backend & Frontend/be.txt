@@ -1,0 +1,69 @@
+Server
+    Device
+        Linux
+        Shell/Terminal
+    HTTP
+        Apache
+        Nginx
+        IIS
+    Stack
+        OS-WS-DB-PL
+
+Database
+    MySQL
+    MariaDB
+    PostgreSQL
+    SQL Server
+    MongoDB
+    
+    Redis
+    Varnish
+    Memcached
+
+Language
+    C#
+    Java
+    Node.js
+    PHP
+    Python
+    Ruby
+
+Framework
+    PHP
+        CodeIgniter
+        Laravel
+        Symfony
+    Node.js
+        Express.js
+    Python
+        Django
+    Ruby
+        Rails
+
+------------
+
+Server
+
+Database
+    Design
+    Management/Administration
+    Optimization
+    Backup
+    Migration
+
+App
+    Architecture
+    Data Access
+    Business
+        Domains/Models
+        Logic & Rules
+    API/REST
+    
+    Security
+    Validation
+    Authentication
+    Authorization
+    Automation
+    Scalability
+    High availability
+    Unit tests
