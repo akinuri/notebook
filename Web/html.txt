@@ -1,0 +1,30 @@
+html
+    
+    content
+    tags
+        start/end or opening/closing
+        presentational vs. semantic vs. neutral
+    attributes
+        global
+        specific
+    comments
+    entities
+    
+    structure
+        doc type
+        head
+        body
+    elements
+        heading
+        paragraph
+        hyperlink
+        list
+        image
+        video
+        audio
+        table
+        form
+        
+        style
+        script
+        canvas
