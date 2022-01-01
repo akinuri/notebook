@@ -1,0 +1,21 @@
+css
+    
+    selectors {
+        properties : values (units)
+    }
+    
+    selector {declaration block} -> rule
+    
+    specificity
+    inheritance
+    cascade
+    
+    property types
+        style/presentation
+        layout
+        element
+    
+    @media
+    pseudo-classes
+    pseudo-elements
+    functions
