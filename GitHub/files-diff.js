@@ -39,13 +39,13 @@ if (fileLists.length > 1) {
     });
 }
 // sort by change count
-let files = Array.from(fileLists[0].children);
-files.sort((a, b) => {
-    return getFileChangeCount(a) - getFileChangeCount(b);
-});
 const getFileChangeCount = (fileEl) => {
     let count = fileEl.querySelector(".diffstat").innerText.trim();
     count = parseInt(count);
     return count;
 };
+let files = Array.from(fileLists[0].children);
+files.sort((a, b) => {
+    return getFileChangeCount(a) - getFileChangeCount(b);
+});
 files.forEach(file => fileLists[0].append(file));
