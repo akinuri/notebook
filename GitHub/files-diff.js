@@ -27,3 +27,25 @@ document.querySelectorAll(
         }
     }
 });
+
+// merge file lists
+let fileLists = document.querySelectorAll(".js-diff-progressive-container");
+if (fileLists.length > 1) {
+    Array.from(fileLists).slice(1).forEach(list => {
+        Array.from(list.children).forEach(diffEl => {
+            fileLists[0].append(diffEl);
+        });
+        list.remove();
+    });
+}
+// sort by change count
+let files = Array.from(fileLists[0].children);
+files.sort((a, b) => {
+    return getFileChangeCount(a) - getFileChangeCount(b);
+});
+const getFileChangeCount = (fileEl) => {
+    let count = fileEl.querySelector(".diffstat").innerText.trim();
+    count = parseInt(count);
+    return count;
+};
+files.forEach(file => fileLists[0].append(file));
