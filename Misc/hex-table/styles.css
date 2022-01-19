@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+}
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 90%);
+    font-size: 1rem;
+}
+main {
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    display: table;
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.2);
+}
+table {
+    border-collapse: collapse;
+    font-family: monospace;
+    font-size: 0.9em;
+}
+table th {
+    background-color: hsla(0, 0%, 0%, 0.1);
+}
+table :is(th, td) {
+    padding: 0.5em;
+    border: 1px solid hsl(0, 0%, 80%);
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    vertical-align: middle;
+}
+table td {
+    position: relative;
+}
+table td .hex {
+    display: block;
+    margin-left: -0.4em;
+    margin-top: -0.4em;
+}
+table td .decimal {
+    position: absolute;
+    right: 0.1em;
+    bottom: 0.1em;
+    font-size: 0.7em;
+    opacity: 0.5;
+}
+
+table tbody td.highlight,
+table tbody tr:hover td {
+    background-color: hsla(0, 0%, 0%, 0.03);
+}
+table tbody tr td:hover {
+    background-color: hsla(0, 0%, 0%, 0.08);
+}
