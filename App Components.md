@@ -5,6 +5,7 @@ These are some components that any application may need. It'd be nice to underst
 
 ## Back end
 
+- Auto Installation/Setup
 - AuthN (Login & Registration)
   - Auth via Social Platforms
 - AuthZ (RBAC)
@@ -12,7 +13,6 @@ These are some components that any application may need. It'd be nice to underst
 - Data Validation
   - Syntactic
   - Semantic
-
 - Hierarchical Data (Categories, Roles, Departments)
 - Grouping (Category, Tag)
 - Common Content (Note, Comment, Attachment, Feedback)
