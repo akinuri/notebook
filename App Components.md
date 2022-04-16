@@ -24,6 +24,7 @@ These are some components that any application may need. It'd be nice to underst
 - API (REST)
 - Subscription
 - Payment
+- Auto Backups
 
 
 
