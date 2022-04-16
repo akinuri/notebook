@@ -22,6 +22,8 @@ These are some components that any application may need. It'd be nice to underst
 - E-mail
 - Newsletter
 - API (REST)
+- Subscription
+- Payment
 
 
 
@@ -31,6 +33,7 @@ These are some components that any application may need. It'd be nice to underst
   - Image Processing
 - Search/Filter/Sort
 - Pagination
+- Currency Handling
 
 
 
