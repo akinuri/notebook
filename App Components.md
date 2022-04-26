@@ -26,6 +26,7 @@ These are some components that any application may need. It'd be nice to underst
 - Payment
 - Auto Backups
 - Spam Prevention
+- Activity Logs
 
 
 
